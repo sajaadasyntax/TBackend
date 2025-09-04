@@ -1,0 +1,376 @@
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-08-31 18:15:34"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-08-31 18:15:38"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-08-31 18:15:40"}
+{"ip":"192.168.0.114","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-08-31 18:52:15","url":"/api/auth/login","userAgent":"okhttp/4.12.0"}
+{"ip":"192.168.0.114","level":"info","message":"Login attempt","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-08-31 18:52:15"}
+{"level":"warn","message":"Login failed - account not verified","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-08-31 18:52:17","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"62","duration":"2352ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":403,"timestamp":"2025-08-31 18:52:17","url":"/login"}
+{"level":"info","message":"POST /api/auth/login 403 2354.57 ms - {\"phoneNumber\":\"0116461085\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-08-31 18:52:17"}
+{"ip":"192.168.0.114","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-08-31 18:53:01","url":"/api/auth/register","userAgent":"okhttp/4.12.0"}
+{"firstName":"Gff","ip":"192.168.0.114","lastName":"Gvg","level":"info","message":"User registration attempt","phoneNumber":"091***","service":"pharmaRate-backend","timestamp":"2025-08-31 18:53:01"}
+{"firstName":"Gff","lastName":"Gvg","level":"info","message":"User registered successfully","phoneNumber":"091***","service":"pharmaRate-backend","timestamp":"2025-08-31 18:53:02","userId":"12066a6d-31a4-484e-9362-3260b9bdacb6"}
+{"contentLength":"70","duration":"1911ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":201,"timestamp":"2025-08-31 18:53:02","url":"/register"}
+{"level":"info","message":"POST /api/auth/register 201 1912.52 ms - {\"firstName\":\"Gff\",\"lastName\":\"Gvg\",\"phoneNumber\":\"0912305441\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-08-31 18:53:02"}
+{"ip":"192.168.0.114","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-08-31 18:53:14","url":"/api/auth/login","userAgent":"okhttp/4.12.0"}
+{"ip":"192.168.0.114","level":"info","message":"Login attempt","phoneNumber":"091***","service":"pharmaRate-backend","timestamp":"2025-08-31 18:53:14"}
+{"level":"warn","message":"Login failed - account not verified","phoneNumber":"091***","service":"pharmaRate-backend","timestamp":"2025-08-31 18:53:16","userId":"12066a6d-31a4-484e-9362-3260b9bdacb6"}
+{"contentLength":"62","duration":"1675ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":403,"timestamp":"2025-08-31 18:53:16","url":"/login"}
+{"level":"info","message":"POST /api/auth/login 403 1675.80 ms - {\"phoneNumber\":\"0912305441\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-08-31 18:53:16"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-08-31 18:55:22"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-08-31 18:55:25"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-08-31 18:55:27"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"pharmaRate-backend","timestamp":"2025-08-31 18:56:54"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-08-31 18:57:10"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-08-31 18:57:14"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-08-31 18:57:16"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-08-31 21:04:14"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-08-31 22:19:26"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-08-31 22:19:30"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-08-31 22:19:33"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-08-31 22:37:54"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-08-31 22:37:59"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-08-31 22:38:03"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 17:16:09"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 17:17:00"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 17:17:42"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 17:43:04"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 17:43:09"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 17:43:12"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 17:48:13"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 17:48:17"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 17:48:20"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-02 17:55:13","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-02 17:55:13"}
+{"contentLength":"25","duration":"31ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-02 17:55:13","url":"/"}
+{"level":"info","message":"GET / 200 59.02 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-02 17:55:13"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:35","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:35"}
+{"duration":"8ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-02 17:58:35","url":"/"}
+{"level":"info","message":"GET / 304 11.59 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:35"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:49","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:49"}
+{"duration":"3ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-02 17:58:49","url":"/"}
+{"level":"info","message":"GET / 304 5.40 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:49"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:50","url":"/api/auth/login","userAgent":"okhttp/4.12.0"}
+{"ip":"10.36.195.78","level":"info","message":"Login attempt","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:50"}
+{"level":"info","message":"Auto-verifying user during login","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:52","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"level":"info","message":"Login successful","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:52","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"315","duration":"2807ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-02 17:58:52","url":"/login"}
+{"level":"info","message":"POST /api/auth/login 200 2812.04 ms - {\"phoneNumber\":\"0116461085\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-09-02 17:58:52"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:06"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:09"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:12"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:20"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:24"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:27"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:34"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:39"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:42"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:52"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:56"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:02:58"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:07"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:11"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:13"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:21"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:25"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:27"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:34"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:39"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:41"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:52"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:57"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:03:59"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:04:16"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:04:21"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:04:29"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:05:06"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:05:10"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:05:23"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:05:28"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:05:48"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:05:52"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:06:00"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:06:04"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:06:26"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:06:29"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:06:37"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:06:41"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:07:04"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:07:22"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:07:26"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:07:36"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:07:40"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:07:58"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:08:02"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:08:11"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:08:15"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:08:34"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:08:38"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:08:47"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:08:52"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:09:02"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:09:07"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:09:32"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:17:43"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:17:48"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:18:14"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:19","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:19"}
+{"duration":"5ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-02 18:20:19","url":"/"}
+{"level":"info","message":"GET / 304 8.36 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:19"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:36","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:36"}
+{"duration":"2ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-02 18:20:36","url":"/"}
+{"level":"info","message":"GET / 304 2.30 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:36"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:36","url":"/api/auth/login","userAgent":"okhttp/4.12.0"}
+{"ip":"10.36.195.78","level":"info","message":"Login attempt","phoneNumber":"116***","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:36"}
+{"level":"warn","message":"Login failed - invalid credentials","phoneNumber":"116***","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:38"}
+{"contentLength":"33","duration":"1827ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":401,"timestamp":"2025-09-02 18:20:38","url":"/login"}
+{"level":"info","message":"POST /api/auth/login 401 1828.37 ms - {\"phoneNumber\":\"116461085\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:38"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:58","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:58"}
+{"duration":"1ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-02 18:20:58","url":"/"}
+{"level":"info","message":"GET / 304 1.67 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:58"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:58","url":"/api/auth/login","userAgent":"okhttp/4.12.0"}
+{"ip":"10.36.195.78","level":"info","message":"Login attempt","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-02 18:20:58"}
+{"level":"info","message":"Login successful","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-02 18:21:01","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"315","duration":"3066ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-02 18:21:01","url":"/login"}
+{"level":"info","message":"POST /api/auth/login 200 3066.93 ms - {\"phoneNumber\":\"0116461085\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-09-02 18:21:01"}
+{"ip":"10.36.195.78","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-02 18:41:10","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-02 18:41:10"}
+{"duration":"6ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-02 18:41:10","url":"/"}
+{"level":"info","message":"GET / 304 6.94 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-02 18:41:10"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:47:07"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:47:13"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:47:42"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-02 18:51:08"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-02 18:51:12"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-02 18:51:40"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-03 16:29:46","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-03 16:29:46"}
+{"contentLength":"25","duration":"32ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-03 16:29:46","url":"/"}
+{"level":"info","message":"GET / 200 39.60 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-03 16:29:46"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-03 16:42:09","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-03 16:42:09"}
+{"duration":"10ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-03 16:42:09","url":"/"}
+{"level":"info","message":"GET / 304 13.27 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-03 16:42:09"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-03 16:42:43","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-03 16:42:43"}
+{"duration":"4ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-03 16:42:43","url":"/"}
+{"level":"info","message":"GET / 304 4.98 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-03 16:42:43"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"pharmaRate-backend","timestamp":"2025-09-03 17:02:25"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-03 17:02:33"}
+{"error":"getaddrinfo ENOTFOUND ep-super-sky-ad1zg3pk-pooler.c-2.us-east-1.aws.neon.tech","level":"error","message":"Unable to connect to NeonDB:","service":"pharmaRate-backend","stack":"SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-super-sky-ad1zg3pk-pooler.c-2.us-east-1.aws.neon.tech\n    at Client._connectionCallback (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:136:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\pg\\lib\\client.js:336:19)\n    at Client._handleErrorEvent (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:518:28)\n    at Socket.reportStreamError (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\pg\\lib\\connection.js:57:12)\n    at Socket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-09-03 17:02:45"}
+{"error":"getaddrinfo ENOTFOUND ep-super-sky-ad1zg3pk-pooler.c-2.us-east-1.aws.neon.tech","level":"error","message":"Database sync error","service":"pharmaRate-backend","stack":"SequelizeHostNotFoundError: getaddrinfo ENOTFOUND ep-super-sky-ad1zg3pk-pooler.c-2.us-east-1.aws.neon.tech\n    at Client._connectionCallback (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:136:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\pg\\lib\\client.js:336:19)\n    at Client._handleErrorEvent (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:518:28)\n    at Socket.reportStreamError (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\pg\\lib\\connection.js:57:12)\n    at Socket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-09-03 17:02:45"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-03 17:04:12","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-03 17:04:12"}
+{"duration":"3ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-03 17:04:12","url":"/"}
+{"level":"info","message":"GET / 304 5.21 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-03 17:04:12"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-04 13:56:37"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-04 13:56:48"}
+{"error":"read ECONNRESET","level":"error","message":"Database sync error","service":"pharmaRate-backend","stack":"Error\n    at Query.run (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async User.sync (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\sequelize\\lib\\model.js:984:11)\n    at async Sequelize.sync (C:\\Users\\elsaj\\parmaRate\\TBackend\\node_modules\\sequelize\\lib\\sequelize.js:377:9)","timestamp":"2025-09-04 13:57:07"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:01:09","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:01:09"}
+{"duration":"10ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:01:09","url":"/"}
+{"level":"info","message":"GET / 304 15.75 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:01:09"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:04:31","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:04:31"}
+{"duration":"3ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:04:31","url":"/"}
+{"level":"info","message":"GET / 304 3.86 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:04:31"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:37","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:37"}
+{"duration":"10ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:07:37","url":"/"}
+{"level":"info","message":"GET / 304 25.50 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:37"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:52","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:52"}
+{"duration":"1ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:07:52","url":"/"}
+{"level":"info","message":"GET / 304 4.86 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:52"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:52","url":"/api/auth/login","userAgent":"okhttp/4.12.0"}
+{"ip":"10.78.164.205","level":"info","message":"Login attempt","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:52"}
+{"level":"info","message":"Login successful","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:55","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"315","duration":"3422ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-04 14:07:55","url":"/login"}
+{"level":"info","message":"POST /api/auth/login 200 3426.91 ms - {\"phoneNumber\":\"0116461085\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-09-04 14:07:55"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:01","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:01"}
+{"duration":"3ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:08:01","url":"/"}
+{"level":"info","message":"GET / 304 5.74 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:01"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:37","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:37"}
+{"duration":"5ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:08:37","url":"/"}
+{"level":"info","message":"GET / 304 7.67 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:37"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:37","url":"/api/auth/login","userAgent":"okhttp/4.12.0"}
+{"ip":"10.78.164.205","level":"info","message":"Login attempt","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:37"}
+{"level":"info","message":"Login successful","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:39","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"315","duration":"1786ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-04 14:08:39","url":"/login"}
+{"level":"info","message":"POST /api/auth/login 200 1786.74 ms - {\"phoneNumber\":\"0116461085\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:39"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:52","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:52"}
+{"duration":"4ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:08:52","url":"/"}
+{"level":"info","message":"GET / 304 5.27 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:08:52"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:23:36","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:23:36"}
+{"duration":"5ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:23:36","url":"/"}
+{"level":"info","message":"GET / 304 6.81 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:23:36"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 14:36:58","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 14:36:58"}
+{"duration":"2ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 14:36:58","url":"/"}
+{"level":"info","message":"GET / 304 2.14 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 14:36:58"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 15:59:35","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 15:59:35"}
+{"duration":"4ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 15:59:35","url":"/"}
+{"level":"info","message":"GET / 304 5.67 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 15:59:35"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:02","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:05","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"2995ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 16:12:05","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 2996.96 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:05"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:05","url":"/api/products","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Products retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:05","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"2","duration":"509ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-04 16:12:05","url":"/"}
+{"level":"info","message":"GET /api/products 200 510.06 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:05"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:05","url":"/api/invoices","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Invoices retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:06","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"2","duration":"422ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-04 16:12:06","url":"/"}
+{"level":"info","message":"GET /api/invoices 200 423.04 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:06"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:06","url":"/api/customers","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Customers retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:06","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"2","duration":"427ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-04 16:12:06","url":"/"}
+{"level":"info","message":"GET /api/customers 200 427.92 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:06"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:14","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:15","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"494ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 16:12:15","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 499.31 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:15"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:15","url":"/api/products","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Products retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:16","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"483ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 16:12:16","url":"/"}
+{"level":"info","message":"GET /api/products 304 485.49 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:16"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:16","url":"/api/invoices","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Invoices retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:16","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"424ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 16:12:16","url":"/"}
+{"level":"info","message":"GET /api/invoices 304 427.52 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:16"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:16","url":"/api/customers","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Customers retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:17","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"540ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 16:12:17","url":"/"}
+{"level":"info","message":"GET /api/customers 304 543.17 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 16:12:17"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:01:07","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 18:01:07"}
+{"duration":"26ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:01:07","url":"/"}
+{"level":"info","message":"GET / 304 30.77 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:01:07"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:01:09","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 18:01:18","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"8804ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 18:01:18","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 8806.14 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:01:18"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:36:55","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 18:36:55"}
+{"duration":"1ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:36:55","url":"/"}
+{"level":"info","message":"GET / 304 1.31 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:36:55"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:36:57","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:00","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"2994ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 18:37:00","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 2995.55 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:00"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:01","url":"/api/products","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Products retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:01","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"431ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:01","url":"/"}
+{"level":"info","message":"GET /api/products 304 431.18 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:01"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:01","url":"/api/invoices","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Invoices retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:01","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"428ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:01","url":"/"}
+{"level":"info","message":"GET /api/invoices 304 428.49 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:01"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:02","url":"/api/customers","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Customers retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:02","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"449ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:02","url":"/"}
+{"level":"info","message":"GET /api/customers 304 449.80 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:02"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:12"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:16"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:17","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Connection to NeonDB has been established successfully.","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:22"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:22","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"4813ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 18:37:22","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 4814.88 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:22"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:22","url":"/api/products","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Products retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:22","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"467ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:22","url":"/"}
+{"level":"info","message":"GET /api/products 304 467.60 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:22"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:22","url":"/api/invoices","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Invoices retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:23","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"493ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:23","url":"/"}
+{"level":"info","message":"GET /api/invoices 304 494.36 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:23"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:23","url":"/api/customers","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Customers retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:23","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"411ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:23","url":"/"}
+{"level":"info","message":"GET /api/customers 304 411.12 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:23"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:25","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:26","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"614ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 18:37:26","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 614.68 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:26"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:26","url":"/api/products","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Products retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:26","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"449ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:26","url":"/"}
+{"level":"info","message":"GET /api/products 304 449.22 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:26"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:26","url":"/api/invoices","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Invoices retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:27","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"409ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:27","url":"/"}
+{"level":"info","message":"GET /api/invoices 304 410.08 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:27"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:27","url":"/api/customers","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Customers retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:27","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"596ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:27","url":"/"}
+{"level":"info","message":"GET /api/customers 304 596.10 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:27"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:44","url":"/","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"Health check endpoint accessed","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:44"}
+{"duration":"1ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:44","url":"/"}
+{"level":"info","message":"GET / 304 1.70 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:44"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"POST","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:44","url":"/api/auth/login","userAgent":"okhttp/4.12.0"}
+{"ip":"10.78.164.205","level":"info","message":"Login attempt","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:44"}
+{"level":"info","message":"Login successful","phoneNumber":"011***","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:45","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"315","duration":"316ms","level":"info","message":"Request completed","method":"POST","service":"pharmaRate-backend","statusCode":200,"timestamp":"2025-09-04 18:37:45","url":"/login"}
+{"level":"info","message":"POST /api/auth/login 200 316.35 ms - {\"phoneNumber\":\"0116461085\",\"password\":\"[REDACTED]\"}","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:45"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:45","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:46","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"788ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 18:37:46","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 788.92 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:46"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:46","url":"/api/products","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Products retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:46","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"443ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:46","url":"/"}
+{"level":"info","message":"GET /api/products 304 443.77 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:46"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:46","url":"/api/invoices","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Invoices retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:47","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"424ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:47","url":"/"}
+{"level":"info","message":"GET /api/invoices 304 424.93 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:47"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:47","url":"/api/customers","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Customers retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:47","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"708ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:47","url":"/"}
+{"level":"info","message":"GET /api/customers 304 709.18 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:47"}
+{"level":"info","message":"Database synchronized successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:52"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:56","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:57","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"566ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 18:37:57","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 566.39 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:57"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:57","url":"/api/products","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Products retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:57","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"428ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:57","url":"/"}
+{"level":"info","message":"GET /api/products 304 429.40 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:57"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:57","url":"/api/invoices","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Invoices retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:58","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"416ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:58","url":"/"}
+{"level":"info","message":"GET /api/invoices 304 417.05 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:58"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:58","url":"/api/customers","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Customers retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:58","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"440ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:37:58","url":"/"}
+{"level":"info","message":"GET /api/customers 304 440.20 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:37:58"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:09","url":"/api/exchange-rates/latest","userAgent":"okhttp/4.12.0"}
+{"level":"warn","message":"No exchange rates found","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:12","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"contentLength":"37","duration":"2515ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":404,"timestamp":"2025-09-04 18:39:12","url":"/latest"}
+{"level":"info","message":"GET /api/exchange-rates/latest 404 2516.22 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:12"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:12","url":"/api/products","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Products retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:13","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"684ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:39:13","url":"/"}
+{"level":"info","message":"GET /api/products 304 685.22 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:13"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:13","url":"/api/invoices","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Invoices retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:13","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"456ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:39:13","url":"/"}
+{"level":"info","message":"GET /api/invoices 304 459.04 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:13"}
+{"ip":"10.78.164.205","level":"info","message":"Request started","method":"GET","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:13","url":"/api/customers","userAgent":"okhttp/4.12.0"}
+{"count":0,"level":"info","message":"Customers retrieved successfully","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:14","userId":"2f4ff167-c15b-4ed5-b50c-8b6674ebd53e"}
+{"duration":"424ms","level":"info","message":"Request completed","method":"GET","service":"pharmaRate-backend","statusCode":304,"timestamp":"2025-09-04 18:39:14","url":"/"}
+{"level":"info","message":"GET /api/customers 304 423.92 ms - -","service":"pharmaRate-backend","timestamp":"2025-09-04 18:39:14"}
+{"level":"info","message":"Server started successfully","port":"5000","service":"pharmaRate-backend","timestamp":"2025-09-04 18:44:01"}
