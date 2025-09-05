@@ -9,42 +9,69 @@ const models = require('./models');
 // Load env variables
 dotenv.config();
 
+// Determine environment
+const isProduction = process.env.NODE_ENV === 'production';
+console.log(`Starting server in ${isProduction ? 'PRODUCTION' : 'DEVELOPMENT'} mode`);
+
 // Create Express app
 const app = express();
 
-// Configure CORS for Expo Go access
+// CORS configuration - Allow all origins and requests
 const corsOptions = {
-  origin: function (origin, callback) {
-    // Allow requests with no origin (like mobile apps, curl requests)
-    if (!origin) return callback(null, true);
-    
-    // List of allowed origins
-    const allowedOrigins = [
-      'http://localhost:19006',  // Expo web
-      'http://localhost:19002',  // Expo devtools
-      'exp://127.0.0.1:19000',   // Expo Go local
-      'exp://192.168.1.1:19000', // Example LAN IP, use your actual IP
-    ];
-    
-    // Check if the origin is allowed
-    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+  origin: '*', // Allow all origins
   credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'Accept', 'Origin', 'X-Requested-With'],
+  exposedHeaders: ['Content-Range', 'X-Total-Count'],
+  maxAge: 86400 // 24 hours
 };
 
 // Middleware
 app.use(express.json());
 app.use(cors(corsOptions));
 
-// Logging middleware
-app.use(requestLogger);
-app.use(detailedRequestLogger);
+// Additional CORS handling for pre-flight requests
+app.options('*', cors(corsOptions));
+
+// Apply different middleware based on environment
+if (isProduction) {
+  // Production middleware - minimal logging for performance
+  app.use((req, res, next) => {
+    // Set CORS headers with no verbose logging
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, PATCH, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Accept, Origin, X-Requested-With');
+    next();
+  });
+  
+  // Use basic request logging in production
+  app.use(requestLogger);
+} else {
+  // Development middleware - verbose logging
+  app.use((req, res, next) => {
+    // Log CORS-related information
+    logger.info('CORS request received', {
+      origin: req.headers.origin,
+      method: req.method,
+      path: req.path,
+      headers: {
+        'access-control-request-headers': req.headers['access-control-request-headers'],
+        'access-control-request-method': req.headers['access-control-request-method']
+      }
+    });
+    
+    // Set CORS headers again (extra safety)
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, PATCH, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Accept, Origin, X-Requested-With');
+    
+    next();
+  });
+  
+  // Use detailed request logging in development
+  app.use(requestLogger);
+  app.use(detailedRequestLogger);
+}
 
 // Routes
 const authRoutes = require('./routes/auth');
@@ -72,23 +99,50 @@ app.get('/', (req, res) => {
 // Test database connection
 testConnection();
 
-// Sync database models
-sequelize.sync({ alter: true })
-  .then(() => {
-    logger.info('Database synchronized successfully');
-    console.log('Database synchronized');
-  })
-  .catch(err => {
-    logger.error('Database sync error', { error: err.message, stack: err.stack });
-    console.error('Database sync error:', err);
-  });
+// Sync database models - with different behavior for production vs development
+if (isProduction) {
+  // In production, don't automatically alter tables - this could be dangerous
+  sequelize.sync()
+    .then(() => {
+      logger.info('Database connected successfully in production mode');
+      console.log('Database connected in PRODUCTION mode - schema changes must be done manually');
+    })
+    .catch(err => {
+      logger.error('Database connection error in production', { error: err.message });
+      console.error('PRODUCTION DATABASE ERROR:', err.message);
+      process.exit(1); // Exit on database error in production
+    });
+} else {
+  // In development, we can alter tables automatically
+  sequelize.sync({ alter: true })
+    .then(() => {
+      logger.info('Database synchronized successfully in development mode');
+      console.log('Database synchronized in DEVELOPMENT mode with automatic schema updates');
+    })
+    .catch(err => {
+      logger.error('Database sync error in development', { error: err.message, stack: err.stack });
+      console.error('Development database sync error:', err);
+    });
+}
 
-// Server - Listen on all available network interfaces for Expo Go access
+// Server configuration
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, '0.0.0.0', () => {
-  logger.info('Server started successfully', { port: PORT });
-  console.log(`Server running on port ${PORT}`);
-  console.log(`Access the API from Expo Go at http://YOUR_LOCAL_IP:${PORT}`);
+  logger.info('Server started successfully', { 
+    port: PORT,
+    environment: process.env.NODE_ENV || 'development',
+    nodeVersion: process.version
+  });
+  
+  if (isProduction) {
+    // Production startup messages - minimal
+    console.log(`✅ PharmaRate API server running in PRODUCTION mode on port ${PORT}`);
+  } else {
+    // Development startup messages - verbose
+    console.log(`🔧 PharmaRate API server running in DEVELOPMENT mode on port ${PORT}`);
+    console.log(`📱 Access the API from Expo Go at http://YOUR_LOCAL_IP:${PORT}`);
+    console.log(`🌐 For web access: http://localhost:${PORT}`);
+  }
 });
 
 // Graceful shutdown
